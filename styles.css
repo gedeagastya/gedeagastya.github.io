@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Warna latar belakang */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* Warna latar belakang kotak informasi */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan kotak */
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* Warna teks judul */
+}
+
+.info,
+.pendidikan,
+.kerja,
+.keahlian {
+    margin-bottom: 20px;
+}
+
+.info p,
+.pendidikan p,
+.kerja p,
+.keahlian p {
+    margin-bottom: 10px;
+}
+
+.info ul,
+.pendidikan ul,
+.kerja ul,
+.keahlian ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info ul li,
+.pendidikan ul li,
+.kerja ul li,
+.keahlian ul li {
+    margin-bottom: 5px;
+}
+
+.keahlian ul li:last-child {
+    margin-bottom: 0;
+}
+
+a {
+    color: #007bff; /* Warna link */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
